@@ -1,0 +1,134 @@
+@charset "utf-8";
+
+fieldset, form, label, legend, ul, li, a,input[type="checkbox"]
+{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+
+html,body 
+{
+	background: #FFFFFF url(/img/background_clouds.png) repeat;
+	color:#666666;
+	font:Lucida Grande, Arial, Helvetica, sans-serif;
+	font-family:Lucida Grande, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	height:100%;
+	list-style:none;
+	margin:0px;
+	padding:0px;
+	text-align:left;	  
+}
+
+
+h2
+{
+	font-size:30px;
+	font-weight:bold;
+	padding:0;
+	line-height:1;
+	font-family:Myriad pro, Lucida Grande, Arial, Helvetica, sans-serif;
+	margin:0;
+}
+
+a
+{
+	color:#0071bc;
+	text-decoration:none;
+}
+
+a:hover
+{
+	color:#0071bc;
+	text-decoration:underline;
+}
+
+img
+{
+	border:none;
+}
+
+
+hr
+{
+	width:100%;
+	background-color:#CCCCCC;
+	color:#CCCCCC;
+	height:1px;
+	border:0;
+}
+
+
+.float-left
+{
+	float:left;
+	display:inline;
+}
+
+.float-right
+{
+	float:right;
+	display:inline;
+}
+
+
+.clear
+{
+	clear:both;
+	height:1px;
+}
+
+
+/* HEADER */
+.header
+{
+	margin:0 auto 20px auto;
+	padding:10px 0 10px 0;
+	height:12px;
+	background-color:#e2e2e1;
+	width:100%;
+	border-bottom:2px solid #CCCCCC;
+	
+}
+
+.header-wrapper
+{
+	width:940px; 
+	margin:0px auto 0 auto; 
+}
+
+#wrapper
+{
+	margin:20px auto 10px auto;
+	width:920px;
+	padding:20px;
+}
+
+.row
+{
+  width:740px; 
+  padding:10px; 
+  border-bottom:1px dashed #CCCCCC;
+}
+
+.name
+{
+  float:left; 
+  width:90px; 
+  overflow:hidden;
+}
+
+.content
+{
+	float:left; 
+	margin:0 0 0 5px; 
+	width:600px; 
+	overflow:hidden;
+}
